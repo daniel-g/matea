@@ -41,6 +41,14 @@ group :development, :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
+  gem 'pry-rails'
+end
+
+group :test do
+  gem 'factory_girl_rails'
+  gem 'database_cleaner'
+  gem 'faker'
+  gem 'shoulda-context'
 end
 
 group :development do
